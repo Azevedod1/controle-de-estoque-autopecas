@@ -11,13 +11,13 @@ class Program
         do
         {
             Console.Clear();
-            Console.WriteLine("[1] Novo");
-            Console.WriteLine("[2] Listar Produtos");
+            Console.WriteLine("[1] Novo Produto");
+            Console.WriteLine("[2] Listar Todos os Produtos");
             Console.WriteLine("[3] Remover Produtos");
-            Console.WriteLine("[4] Entrada Estoque");
-            Console.WriteLine("[5] Saída Estoque");
+            Console.WriteLine("[4] Entrada no Estoque");
+            Console.WriteLine("[5] Saída do Estoque");
             Console.WriteLine("[0] Sair");
-            Console.Write("Escolha uma opção: ");
+            Console.Write("Aguardando uma opção: ");
             opcao = int.Parse(Console.ReadLine());
 
             switch (opcao)
@@ -62,7 +62,7 @@ class Program
         int quantidade = int.Parse(Console.ReadLine());
         Console.Write("Preço: ");
         decimal preco = decimal.Parse(Console.ReadLine());
-        Console.Write("Modelo: ");
+        Console.Write("Marca/Modelo: ");
         string modelo = Console.ReadLine();
 
         produtos.Add(new Produto { Nome = nome, Quantidade = quantidade, Preco = preco, Modelo = modelo });

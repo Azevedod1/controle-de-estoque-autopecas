@@ -1,0 +1,15 @@
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\bin\Debug\net8.0\controle.exe
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\bin\Debug\net8.0\controle.deps.json
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\bin\Debug\net8.0\controle.runtimeconfig.json
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\bin\Debug\net8.0\controle.dll
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\bin\Debug\net8.0\controle.pdb
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.AssemblyInfoInputs.cache
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.AssemblyInfo.cs
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.csproj.CoreCompileInputs.cache
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.sourcelink.json
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.dll
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\refint\controle.dll
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.pdb
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\controle.genruntimeconfig.cache
+C:\Users\danilo\Documents\GitHub\controle-de-estoque-autopecas\obj\Debug\net8.0\ref\controle.dll
