@@ -74,7 +74,7 @@ class Program
         Console.WriteLine("Produtos cadastrados:");
         foreach (var produto in produtos)
         {
-            Console.WriteLine($"Nome: {produto.Nome}, Quantidade: {produto.Quantidade}, Preço: {produto.Preco}, Modelo: {produto.Modelo}");
+            Console.WriteLine($"Nome: {produto.Nome}, Quantidade: {produto.Quantidade}, Preço: {produto.Preco}, Marca/Modelo: {produto.Modelo}");
         }
     }
 
