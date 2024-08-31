@@ -58,14 +58,16 @@ class Program
     {
         Console.Write("Nome do produto: ");
         string nome = Console.ReadLine();
-        Console.Write("Quantidade inicial: ");
-        int quantidade = int.Parse(Console.ReadLine());
+        //Console.Write("Quantidade inicial: ");
+        //int quantidade = int.Parse(Console.ReadLine());
         Console.Write("Preço: ");
         decimal preco = decimal.Parse(Console.ReadLine());
         Console.Write("Marca/Modelo: ");
         string modelo = Console.ReadLine();
+        Console.Write("Peso Aproximado: ");
+        decimal peso = decimal.Parse(Console.ReadLine());
 
-        produtos.Add(new Produto { Nome = nome, Quantidade = quantidade, Preco = preco, Modelo = modelo });
+        produtos.Add(new Produto { Nome = nome, Quantidade = 0, Preco = preco, Modelo = modelo, Peso = peso });
         Console.WriteLine("Produto adicionado com sucesso!");
     }
 
@@ -74,7 +76,7 @@ class Program
         Console.WriteLine("Produtos cadastrados:");
         foreach (var produto in produtos)
         {
-            Console.WriteLine($"Nome: {produto.Nome}, Quantidade: {produto.Quantidade}, Preço: {produto.Preco}, Marca/Modelo: {produto.Modelo}");
+            Console.WriteLine($"Nome: {produto.Nome}, Quantidade: {produto.Quantidade}, Preço: {produto.Preco}, Marca/Modelo: {produto.Modelo}, Peso Aproximado: {produto.Peso}g");
         }
     }
 
@@ -147,4 +149,6 @@ class Produto
     public int Quantidade { get; set; }
     public decimal Preco { get; set; }
     public string Modelo { get; set; }
+   public decimal Peso { get; set; }
+
 }
